@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Alert, Box, Button, Stack, TextField } from '@mui/material'
+import { Alert, Button, Stack, TextField } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send'
 
 const camposIniciales = {
@@ -30,7 +30,7 @@ function FormularioContacto() {
       const respuesta = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({ 'form-name': 'contacto', ...datos }).toString(),
+        body: new URLSearchParams({ 'form-name': 'contacto', 'bot-field': '', ...datos }).toString(),
       })
       if (!respuesta.ok) {
         throw new Error('Error en el envío')
@@ -44,16 +44,6 @@ function FormularioContacto() {
 
   return (
     <>
-      <Box sx={{ display: 'none' }} aria-hidden="true">
-        <form name="contacto" data-netlify="true" netlify-honeypot="bot-field" hidden>
-          <input type="text" name="bot-field" />
-          <input type="text" name="nombre" />
-          <input type="email" name="email" />
-          <input type="text" name="asunto" />
-          <textarea name="mensaje"></textarea>
-        </form>
-      </Box>
-
       <form name="contacto" data-netlify="true" netlify-honeypot="bot-field" onSubmit={enviar} noValidate>
         <input type="hidden" name="form-name" value="contacto" />
 

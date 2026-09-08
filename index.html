@@ -8,6 +8,19 @@
   </head>
   <body>
     <div id="root"></div>
+    <form
+      name="contacto"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      style="display:none"
+      aria-hidden="true"
+    >
+      <input type="text" name="bot-field" />
+      <input type="text" name="nombre" />
+      <input type="email" name="email" />
+      <input type="text" name="asunto" />
+      <textarea name="mensaje"></textarea>
+    </form>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
