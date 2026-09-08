@@ -1,5 +1,5 @@
 import { Box, Button, Card, Chip, Container, Typography } from '@mui/material'
-import { ArrowForward, Mail, OpenInNew } from '@mui/icons-material'
+import { ArrowForward, Mail } from '@mui/icons-material'
 import { Link as RouterLink } from 'react-router-dom'
 import tramites from '../data/tramites.json'
 import noticias from '../data/noticias.json'
@@ -180,35 +180,13 @@ function Home() {
 
       <Box sx={{ backgroundColor: '#f4f9ea', py: 5 }}>
         <Container maxWidth="lg">
-          <Box
-            sx={{
-              display: 'flex',
-              alignItems: { xs: 'flex-start', md: 'center' },
-              justifyContent: 'space-between',
-              gap: 2,
-              flexDirection: { xs: 'column', md: 'row' },
-              mb: 3,
-            }}
-          >
-            <Box>
-              <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 0 }}>
-                Noticias y avisos
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Avisos provisorios — las oficiales, en el portal externo.
-              </Typography>
-            </Box>
-            <Button
-              component="a"
-              href="https://santarosainforma.com.ar/"
-              target="_blank"
-              rel="noopener noreferrer"
-              variant="outlined"
-              color="primary"
-              endIcon={<OpenInNew />}
-            >
-              Ver noticias actualizadas
-            </Button>
+          <Box sx={{ mb: 3 }}>
+            <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 0 }}>
+              Noticias y avisos
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Avisos provisorios de la Municipalidad.
+            </Typography>
           </Box>
 
           <Box sx={{ display: 'grid', gap: 2, gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' } }}>

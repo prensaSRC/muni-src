@@ -45,14 +45,14 @@ const dependenciasMenu = contactos.map((contacto) => ({
 }))
 
 const estiloPill = ({ isActive }) => ({
-  backgroundColor: isActive ? colores.turquesaOscura : 'transparent',
-  color: isActive ? '#ffffff' : undefined,
+  backgroundColor: isActive ? 'rgba(0, 106, 115, 0.12)' : 'transparent',
+  color: isActive ? colores.turquesaOscura : undefined,
   fontWeight: isActive ? 700 : 500,
 })
 
 const estiloLista = ({ isActive }) => ({
-  backgroundColor: isActive ? colores.turquesaOscura : 'transparent',
-  color: isActive ? '#ffffff' : undefined,
+  backgroundColor: isActive ? 'rgba(0, 106, 115, 0.12)' : 'transparent',
+  color: isActive ? colores.turquesaOscura : undefined,
   fontWeight: isActive ? 700 : 400,
 })
 
@@ -68,6 +68,7 @@ function Navbar() {
   const sxPill = {
     borderRadius: '999px',
     px: 2.25,
+    whiteSpace: 'nowrap',
     color: 'text.primary',
     transition: 'background-color 200ms ease, color 200ms ease',
     '&:hover': {
@@ -150,8 +151,8 @@ function Navbar() {
             }
             sx={sxPill}
             style={{
-              backgroundColor: gobiernoActivo ? colores.turquesaOscura : 'transparent',
-              color: gobiernoActivo ? '#ffffff' : undefined,
+              backgroundColor: gobiernoActivo ? 'rgba(0, 106, 115, 0.12)' : 'transparent',
+              color: gobiernoActivo ? colores.turquesaOscura : undefined,
               fontWeight: gobiernoActivo ? 700 : 500,
             }}
           >
@@ -209,8 +210,10 @@ function Navbar() {
         anchorEl={ancla}
         open={Boolean(ancla)}
         onClose={() => setAncla(null)}
-        MenuListProps={{ dense: true }}
-        slotProps={{ paper: { sx: { mt: 1, borderRadius: 2, minWidth: 280 } } }}
+        slotProps={{
+          list: { dense: true },
+          paper: { sx: { mt: 1, borderRadius: 2, minWidth: 280 } },
+        }}
       >
         {dependenciasMenu.map((dependencia) => {
           const estilo = estiloArea(dependencia.area)
@@ -251,7 +254,7 @@ function Navbar() {
           <ListItemText
             primary="Todas las dependencias"
             sx={{ pl: 5 }}
-            primaryTypographyProps={{ fontWeight: 700 }}
+            slotProps={{ primary: { fontWeight: 700 } }}
           />
         </MenuItem>
       </Menu>
@@ -278,7 +281,7 @@ function Navbar() {
                 onClick={() => setGobiernoAbierto((previo) => !previo)}
                 aria-expanded={gobiernoAbierto}
                 sx={{ borderRadius: 2, mx: 1 }}
-                style={gobiernoActivo ? { backgroundColor: colores.turquesaOscura, color: '#ffffff', fontWeight: 700 } : undefined}
+                style={gobiernoActivo ? { backgroundColor: 'rgba(0, 106, 115, 0.12)', color: colores.turquesaOscura, fontWeight: 700 } : undefined}
               >
                 <ListItemText primary="Gobierno" />
                 <KeyboardArrowDownIcon
@@ -312,7 +315,10 @@ function Navbar() {
                     sx={{ borderRadius: 2, mx: 1, pl: 4 }}
                     style={estiloLista}
                   >
-                    <ListItemText primary="Todas las dependencias" primaryTypographyProps={{ fontWeight: 700 }} />
+                    <ListItemText
+                      primary="Todas las dependencias"
+                      slotProps={{ primary: { fontWeight: 700 } }}
+                    />
                   </ListItemButton>
                 </ListItem>
               </List>

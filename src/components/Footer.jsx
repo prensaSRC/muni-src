@@ -4,7 +4,6 @@ import EmailIcon from '@mui/icons-material/Email'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
-import MusicNoteIcon from '@mui/icons-material/MusicNote'
 import PhoneIcon from '@mui/icons-material/Phone'
 import XIcon from '@mui/icons-material/X'
 import logoBlanco from '../assets/logos/logo-blanco.svg'
@@ -20,7 +19,6 @@ const enlacesRapidos = [
 const redes = [
   { icono: FacebookIcon, label: 'Facebook', url: 'https://www.facebook.com/Municipalidadsantarosa/' },
   { icono: InstagramIcon, label: 'Instagram', url: 'https://www.instagram.com/santarosamuni/' },
-  { icono: MusicNoteIcon, label: 'TikTok', url: 'https://www.tiktok.com/' },
   { icono: XIcon, label: 'X (Twitter)', url: 'https://x.com/santarosamuni' },
 ]
 
