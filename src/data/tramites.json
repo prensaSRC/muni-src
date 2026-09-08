@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pagos-tasas",
+    "titulo": "Pago de Tasas Municipales",
+    "categoria": "Servicios Digitales",
+    "tipo": "link",
+    "descripcion": "Accedé al portal de consulta de deuda y pago de tasas municipales en línea.",
+    "urlExterna": "https://www.municipalidad.com/srca/home/menu"
+  },
+  {
+    "id": "turnero-cididi",
+    "titulo": "Turnos Web (Ciudadano Digital)",
+    "categoria": "Servicios Digitales",
+    "tipo": "link",
+    "descripcion": "Sacá turno para atención presencial en dependencias municipales a través de CiDi.",
+    "urlExterna": "https://cidi.cba.gov.ar/portal-publico/?app=22"
+  },
+  {
+    "id": "reclamos",
+    "titulo": "Atención al Vecino y Reclamos",
+    "categoria": "Servicios Digitales",
+    "tipo": "link",
+    "descripcion": "Ingresá tu reclamo o sugerencia en el portal municipal de atención ciudadana.",
+    "urlExterna": "https://www.municipalidad.com/srca/reclamos"
+  },
+  {
+    "id": "habilitacion-comercial",
+    "titulo": "Habilitación Comercial Digital",
+    "categoria": "Comercio",
+    "tipo": "link",
+    "descripcion": "Módulo online de habilitación comercial. Antes de iniciar, solicitá la visita del personal de la D.I.S.P.O. para la Prefactibilidad Comercial.",
+    "urlExterna": "https://habilitar-src.com/login"
+  },
+  {
+    "id": "licencia-conducir",
+    "titulo": "Licencia de Conducir (Primera vez / Renovación)",
+    "categoria": "Licencias",
+    "tipo": "guia",
+    "descripcion": "Guía de requisitos y pasos para obtener o renovar el carnet de conducir.",
+    "requisitos": [
+      "DNI original y fotocopia con domicilio en Santa Rosa",
+      "SINTAT / Libre deuda de faltas impreso",
+      "Estudio psicofísico aprobado",
+      "Charla de educación vial (solo primera vez)"
+    ],
+    "dondeSeHace": "Oficina de Tránsito - C. Córdoba 123",
+    "horario": "Lunes a Viernes de 07:30 a 13:00 hs",
+    "contacto": "Oficina de Tránsito - (03546) 42-2888"
+  },
+  {
+    "id": "obras-privadas",
+    "titulo": "Permisos de Edificación y Obras Privadas",
+    "categoria": "Obras Privadas",
+    "tipo": "guia",
+    "descripcion": "Información para profesionales y vecinos sobre presentación de planos y permisos, con acceso a planillas, ordenanzas y plataforma digital.",
+    "requisitos": [
+      "Plano de obra firmado por profesional matriculado",
+      "Copia de escritura o boleto de compraventa",
+      "Comprobante de pago de tasa de edificación",
+      "Formulario de factibilidad técnica"
+    ],
+    "dondeSeHace": "Dirección de Obras Privadas - Edificio Municipal",
+    "horario": "Lunes a Viernes de 08:00 a 12:30 hs",
+    "contacto": "Dirección de Obras Privadas - (03546) 42-4555",
+    "descargables": [
+      { "nombre": "Requisitos Ingreso de Expedientes", "url": "https://drive.google.com/drive/folders/1SSqU_AV84wTHDSqD73oEkcfTwlbWYgns" },
+      { "nombre": "Planillas", "url": "https://drive.google.com/drive/folders/1zpDs8vbYClFzomqvvF-ye27UvuCPXe0d" },
+      { "nombre": "Ordenanzas", "url": "https://drive.google.com/drive/folders/1s9fjhd3qiYl35e6QEgevJom4Fo07MXNp" },
+      { "nombre": "Zonificación", "url": "https://drive.google.com/drive/folders/1YzEDqfBuNkD4_mEycXRrduprxprLHfWr" },
+      { "nombre": "Parador de la Montaña", "url": "https://drive.google.com/drive/folders/1hXH3Vq36cM9DPk5zHQsO6sqHi1S0wn0G" },
+      { "nombre": "Información General", "url": "https://drive.google.com/drive/folders/1JM4E-uM6jELNwet9_5e3ANZlJy092dXs" },
+      { "nombre": "Plataforma Digital Trámite Expedientes", "url": "https://santarosa.colegio-arquitectos.com.ar/" }
+    ]
+  }
+]

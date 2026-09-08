@@ -1,0 +1,52 @@
+[
+  {
+    "id": "intendencia",
+    "area": "Intendencia",
+    "telefono": "(03546) 42-9650 / 42-0667",
+    "direccion": "Córdoba 424, Santa Rosa de Calamuchita",
+    "horario": "Lunes a Viernes de 08:00 a 13:00 hs",
+    "email": "intendencia@municipiosantarosa.gob.ar"
+  },
+  {
+    "id": "centro-de-salud",
+    "area": "Secretaría de Salud",
+    "telefono": "+54 3546 42-9653",
+    "direccion": "Calle Córdoba 144, Santa Rosa de Calamuchita, Córdoba",
+    "horario": "Lunes a viernes de 7:00 a 13:00 hs. Sábados y domingos permanece cerrada.",
+    "email": "salud@santarosa.gob.ar"
+  },
+  {
+    "id": "obras-publicas",
+    "area": "Obras Privadas",
+    "telefono": "03546 42-1235",
+    "direccion": "Córdoba 144, X5196 Santa Rosa de Calamuchita, Córdoba",
+    "provincia": "Provincia de Córdoba",
+    "horario": "Lunes a Viernes de 08:00 a 12:30 hs",
+    "email": "obras@santarosa.gob.ar"
+  },
+  {
+    "id": "juzgado-de-faltas",
+    "area": "Juzgado de Faltas",
+    "telefono": "(03546) 42-3777",
+    "direccion": "Hipólito Irigoyen 192, Santa Rosa de Calamuchita",
+    "horario": "Lunes a Viernes de 07:30 a 13:00 hs",
+    "email": "juzgado@santarosa.gob.ar"
+  },
+  {
+    "id": "turismo",
+    "area": "Secretaría de Turismo, Cultura y Deportes",
+    "telefono": "+54 3546 42-9654",
+    "direccion": "Calle Córdoba 144, Santa Rosa de Calamuchita, Córdoba",
+    "horario": "Todos los días de 09:00 a 19:00 hs",
+    "email": "turismo@santarosa.gob.ar"
+  },
+  {
+    "id": "dispo",
+    "area": "DISPO",
+    "descripcion": "Dirección de Inspección, Seguridad, Prevención y Orden",
+    "telefono": "03546 400190",
+    "direccion": "Hipólito Irigoyen 192, Santa Rosa de Calamuchita",
+    "horario": "Lunes a Viernes de 07:30 a 13:00 hs",
+    "email": "dispo@santarosa.gob.ar"
+  }
+]

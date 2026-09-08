@@ -1,0 +1,30 @@
+[
+  {
+    "id": "noticia-1",
+    "titulo": "Nuevo sistema de pago de tasas en línea",
+    "fecha": "2026-08-28",
+    "resumen": "La Municipalidad habilita un portal para consultar deuda y abonar tasas municipales de forma digital, sin trasladarse al Centro Cívico.",
+    "categoria": "Servicios"
+  },
+  {
+    "id": "noticia-2",
+    "titulo": "Temporada: refuerzan la atención al turista",
+    "fecha": "2026-09-02",
+    "resumen": "La oficina de Turismo amplía su horario de atención y suma un punto de información en el acceso a la localidad durante toda la temporada.",
+    "categoria": "Turismo"
+  },
+  {
+    "id": "noticia-3",
+    "titulo": "Inscripciones abiertas: licencias de conducir",
+    "fecha": "2026-09-05",
+    "resumen": "Se encuentran abiertas las inscripciones para rendir el examen de manejo de la nueva tanda. Cupos limitados, consultá los requisitos en Trámites.",
+    "categoria": "Trámites"
+  },
+  {
+    "id": "noticia-4",
+    "titulo": "Obras de bacheo en sector norte de la ciudad",
+    "fecha": "2026-09-06",
+    "resumen": "Comenzaron los trabajos de repavimentación en el sector norte. Se solicita circular con precaución por los desvíos señalizados.",
+    "categoria": "Obras"
+  }
+]
