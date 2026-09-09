@@ -138,6 +138,27 @@ function TramiteAccordion({ tramite, expandido = false, onToggle }) {
                   ))}
                 </Box>
               )}
+
+              {tramite.enlaces?.length > 0 && (
+                <Box sx={{ mt: 1 }}>
+                  <Typography variant="subtitle2" sx={{ fontWeight: 700, mb: 0.5 }}>
+                    Mapas y Catastro
+                  </Typography>
+                  {tramite.enlaces.map((enlace) => (
+                    <Link
+                      key={enlace.nombre}
+                      href={enlace.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      underline="hover"
+                      sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}
+                    >
+                      <OpenInNew fontSize="small" />
+                      {enlace.nombre}
+                    </Link>
+                  ))}
+                </Box>
+              )}
             </Box>
           </Box>
         )}

@@ -43,9 +43,9 @@
       "Estudio psicofísico aprobado",
       "Charla de educación vial (solo primera vez)"
     ],
-    "dondeSeHace": "Oficina de Tránsito - C. Córdoba 123",
+    "dondeSeHace": "DISPO (Tránsito) - Hipólito Irigoyen 192",
     "horario": "Lunes a Viernes de 07:30 a 13:00 hs",
-    "contacto": "Oficina de Tránsito - (03546) 42-2888"
+    "contacto": "DISPO - 03546 400190"
   },
   {
     "id": "obras-privadas",
@@ -59,9 +59,9 @@
       "Comprobante de pago de tasa de edificación",
       "Formulario de factibilidad técnica"
     ],
-    "dondeSeHace": "Dirección de Obras Privadas - Edificio Municipal",
+    "dondeSeHace": "Dirección de Obras Privadas - Córdoba 144",
     "horario": "Lunes a Viernes de 08:00 a 12:30 hs",
-    "contacto": "Dirección de Obras Privadas - (03546) 42-4555",
+    "contacto": "Obras Privadas - 03546 42-1235",
     "descargables": [
       { "nombre": "Requisitos Ingreso de Expedientes", "url": "https://drive.google.com/drive/folders/1SSqU_AV84wTHDSqD73oEkcfTwlbWYgns" },
       { "nombre": "Planillas", "url": "https://drive.google.com/drive/folders/1zpDs8vbYClFzomqvvF-ye27UvuCPXe0d" },
@@ -70,6 +70,10 @@
       { "nombre": "Parador de la Montaña", "url": "https://drive.google.com/drive/folders/1hXH3Vq36cM9DPk5zHQsO6sqHi1S0wn0G" },
       { "nombre": "Información General", "url": "https://drive.google.com/drive/folders/1JM4E-uM6jELNwet9_5e3ANZlJy092dXs" },
       { "nombre": "Plataforma Digital Trámite Expedientes", "url": "https://santarosa.colegio-arquitectos.com.ar/" }
+    ],
+    "enlaces": [
+      { "nombre": "Mapas Córdoba - Catastro On Line", "url": "https://mapascordoba.gob.ar/viewer/mapa/15" },
+      { "nombre": "Mapas Cba - Sta Rosa de Calamuchita", "url": "https://mapascordoba.gob.ar/viewer/mapa/584" }
     ]
   }
 ]
