@@ -48,5 +48,14 @@
     "direccion": "Hipólito Irigoyen 192, Santa Rosa de Calamuchita",
     "horario": "Lunes a Viernes de 07:30 a 13:00 hs",
     "email": "dispo@santarosa.gob.ar"
+  },
+  {
+    "id": "finanzas",
+    "area": "Secretaría de Finanzas y Modernización",
+    "descripcion": "Secretaría a cargo de las finanzas municipales y de la modernización del Estado. Contenido provisorio.",
+    "telefono": "(03546) 42-9650 / 42-0667",
+    "direccion": "Córdoba 424, Santa Rosa de Calamuchita",
+    "horario": "Lunes a Viernes de 08:00 a 13:00 hs",
+    "email": "finanzas@municipiosantarosa.gob.ar"
   }
 ]

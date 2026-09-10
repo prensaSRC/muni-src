@@ -36,6 +36,7 @@ const etiquetasCortas = {
   'juzgado-de-faltas': 'Juzgado de Faltas',
   turismo: 'Turismo, Cultura y Deportes',
   dispo: 'DISPO',
+  finanzas: 'Finanzas y Modernización',
 }
 
 const dependenciasMenu = contactos.map((contacto) => ({
