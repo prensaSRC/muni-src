@@ -3,7 +3,7 @@
     "id": "intendencia",
     "area": "Intendencia",
     "telefono": "(03546) 42-9650 / 42-0667",
-    "direccion": "Córdoba 424, Santa Rosa de Calamuchita",
+    "direccion": "Córdoba 242, Santa Rosa de Calamuchita",
     "horario": "Lunes a Viernes de 08:00 a 13:00 hs",
     "email": "intendencia@municipiosantarosa.gob.ar"
   },
@@ -33,10 +33,19 @@
     "email": "juzgado@santarosa.gob.ar"
   },
   {
-    "id": "turismo",
-    "area": "Secretaría de Turismo, Cultura y Deportes",
-    "telefono": "+54 3546 42-9654",
-    "direccion": "Calle Córdoba 144, Santa Rosa de Calamuchita, Córdoba",
+    "id": "turismo-local",
+    "area": "Secretaría de Turismo - Oficina de Informes Local",
+    "telefono": "03546 429652 / 429654",
+    "whatsapp": "3546 528914",
+    "direccion": "Córdoba 144 - Centro Santa Rosa de Calamuchita",
+    "horario": "Todos los días de 09:00 a 19:00 hs",
+    "email": "turismo@santarosa.gob.ar"
+  },
+  {
+    "id": "turismo-regional",
+    "area": "Secretaría de Turismo - Oficina de Informes Regional",
+    "telefono": "3546 571272",
+    "direccion": "Av. Fuerza Aérea y Ruta Pcial. N° 5, Santa Rosa de Calamuchita",
     "horario": "Todos los días de 09:00 a 19:00 hs",
     "email": "turismo@santarosa.gob.ar"
   },
@@ -54,7 +63,7 @@
     "area": "Secretaría de Finanzas y Modernización",
     "descripcion": "Secretaría a cargo de las finanzas municipales y de la modernización del Estado. Contenido provisorio.",
     "telefono": "(03546) 42-9650 / 42-0667",
-    "direccion": "Córdoba 424, Santa Rosa de Calamuchita",
+    "direccion": "Córdoba 242, Santa Rosa de Calamuchita",
     "horario": "Lunes a Viernes de 08:00 a 13:00 hs",
     "email": "finanzas@municipiosantarosa.gob.ar"
   }

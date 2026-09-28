@@ -59,7 +59,7 @@ function Footer() {
               <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1 }}>
                 <LocationOnIcon fontSize="small" sx={{ mt: 0.25 }} />
                 <Typography variant="body2">
-                  Córdoba 424, Santa Rosa de Calamuchita, Córdoba
+                  Córdoba 242, Santa Rosa de Calamuchita, Córdoba
                 </Typography>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>

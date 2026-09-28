@@ -4,6 +4,7 @@ import EmailIcon from '@mui/icons-material/Email'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import PhoneIcon from '@mui/icons-material/Phone'
 import ScheduleIcon from '@mui/icons-material/Schedule'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import { Link as RouterLink, useParams } from 'react-router-dom'
 import contactos from '../data/contactos.json'
 import { estiloArea } from '../data/areas'
@@ -86,6 +87,14 @@ function DependenciaDetalle() {
                 {dependencia.telefono}
               </Typography>
             </Box>
+            {dependencia.whatsapp && (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                <WhatsAppIcon fontSize="small" color="success" />
+                <Typography variant="body1" component="span">
+                  WhatsApp: {dependencia.whatsapp}
+                </Typography>
+              </Box>
+            )}
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
               <EmailIcon fontSize="small" color="primary" />
               <Typography variant="body1">{dependencia.email}</Typography>

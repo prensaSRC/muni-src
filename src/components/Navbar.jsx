@@ -34,7 +34,8 @@ const etiquetasCortas = {
   'centro-de-salud': 'Secretaría de Salud',
   'obras-publicas': 'Obras Privadas',
   'juzgado-de-faltas': 'Juzgado de Faltas',
-  turismo: 'Turismo, Cultura y Deportes',
+  'turismo-local': 'Turismo (Oficina Local)',
+  'turismo-regional': 'Turismo (Oficina Regional)',
   dispo: 'DISPO',
   finanzas: 'Finanzas y Modernización',
 }
