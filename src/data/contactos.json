@@ -10,10 +10,10 @@
   {
     "id": "centro-de-salud",
     "area": "Secretaría de Salud",
-    "telefono": "+54 3546 42-9653",
+    "telefono": "+54 3546 525375",
     "direccion": "Calle Córdoba 144, Santa Rosa de Calamuchita, Córdoba",
-    "horario": "Lunes a viernes de 7:00 a 13:00 hs. Sábados y domingos permanece cerrada.",
-    "email": "salud@santarosa.gob.ar"
+    "horario": "Lunes a viernes de 8:00 a 14:00 hs. Sábados y domingos permanece cerrada.",
+    "email": "direcciondesaludsrc@gmail.com"
   },
   {
     "id": "obras-publicas",
@@ -33,21 +33,30 @@
     "email": "juzgado@santarosa.gob.ar"
   },
   {
-    "id": "turismo-local",
-    "area": "Secretaría de Turismo - Oficina de Informes Local",
-    "telefono": "03546 429652 / 429654",
-    "whatsapp": "3546 528914",
-    "direccion": "Córdoba 144 - Centro Santa Rosa de Calamuchita",
-    "horario": "Todos los días de 09:00 a 19:00 hs",
-    "email": "turismo@santarosa.gob.ar"
-  },
-  {
-    "id": "turismo-regional",
-    "area": "Secretaría de Turismo - Oficina de Informes Regional",
-    "telefono": "3546 571272",
-    "direccion": "Av. Fuerza Aérea y Ruta Pcial. N° 5, Santa Rosa de Calamuchita",
-    "horario": "Todos los días de 09:00 a 19:00 hs",
-    "email": "turismo@santarosa.gob.ar"
+    "id": "turismo",
+    "area": "Secretaría de Turismo, Cultura y Deportes",
+    "descripcion": "Oficinas de informes turísticos",
+    "oficinas": [
+      {
+        "nombre": "Oficina de Informes Local",
+        "descripcion": "Información de contacto y atención",
+        "direccion": "Córdoba 144 - Centro Santa Rosa de Calamuchita",
+        "telefono": "03546 429652 / 429654",
+        "whatsapp": "3546 528914",
+        "email": "infoturismo@municipiosantarosa.gob.ar",
+        "horarioAlta": "Todos los días de 08:00 a 22:00hs",
+        "horarioBaja": "Todos los días de 8:00 a 20:00hs"
+      },
+      {
+        "nombre": "Oficina de Informes Regional",
+        "descripcion": "Información de contacto y atención",
+        "direccion": "Av. Fuerza Aérea y Ruta Pcial. N° 5, Santa Rosa de Calamuchita",
+        "telefono": "3546 571272",
+        "email": "turismoyculturasantarosa@gmail.com",
+        "horarioAlta": "Todos los días de 08:00 a 20:00hs",
+        "horarioBaja": "Todos los días de 9:00 a 15:00hs"
+      }
+    ]
   },
   {
     "id": "dispo",

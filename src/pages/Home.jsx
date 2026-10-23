@@ -1,8 +1,7 @@
-import { Box, Button, Card, Chip, Container, Typography } from '@mui/material'
+import { Box, Button, Card, Container, Typography } from '@mui/material'
 import { ArrowForward, Mail } from '@mui/icons-material'
 import { Link as RouterLink } from 'react-router-dom'
 import tramites from '../data/tramites.json'
-import noticias from '../data/noticias.json'
 import { accesos } from '../data/accesos'
 import IconoSquircle from '../components/IconoSquircle'
 import logoBlanco from '../assets/logos/logo-blanco.svg'
@@ -17,9 +16,6 @@ const accesosRapidos = accesos
     tramite: tramites.find((item) => item.id === acceso.id),
   }))
   .filter((acceso) => acceso.tramite)
-
-const formatearFecha = (fecha) =>
-  new Date(fecha).toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' })
 
 function Home() {
   return (
@@ -125,7 +121,7 @@ function Home() {
             Accesos rápidos
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-            Los trámites más buscados, a un clic.
+            Los trámites más buscados, a un click.
           </Typography>
 
           <Box
@@ -178,6 +174,7 @@ function Home() {
         </Container>
       </Box>
 
+      {/* Sección Noticias y avisos - ocultada temporalmente
       <Box sx={{ backgroundColor: '#f4f9ea', py: 5 }}>
         <Container maxWidth="lg">
           <Box sx={{ mb: 3 }}>
@@ -228,6 +225,7 @@ function Home() {
           </Box>
         </Container>
       </Box>
+*/}
 
       <Container maxWidth="lg" sx={{ py: 5 }}>
         <Box

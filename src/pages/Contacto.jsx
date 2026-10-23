@@ -54,7 +54,7 @@ function Contacto() {
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                 <EmailIcon fontSize="small" color="primary" />
-                <Typography variant="body2">intendencia@municipiosantarosa.gob.ar</Typography>
+                <Typography variant="body2">mesaentrada@municipiosantarosa.gob.ar</Typography>
               </Box>
             </Stack>
           </Paper>

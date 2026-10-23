@@ -68,7 +68,7 @@ function Footer() {
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                 <EmailIcon fontSize="small" />
-                <Typography variant="body2">intendencia@municipiosantarosa.gob.ar</Typography>
+                <Typography variant="body2">mesaentrada@municipiosantarosa.gob.ar</Typography>
               </Box>
             </Stack>
           </Box>

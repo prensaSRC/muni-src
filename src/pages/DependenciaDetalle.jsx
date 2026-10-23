@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardContent, Container, Stack, Typography } from '@mui/material'
+import { Box, Button, Card, CardContent, Container, Grid, Stack, Typography } from '@mui/material'
 import ArrowBack from '@mui/icons-material/ArrowBack'
 import EmailIcon from '@mui/icons-material/Email'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
@@ -33,6 +33,92 @@ function DependenciaDetalle() {
   const estilo = estiloArea(dependencia.area)
   const Icono = estilo.icono
 
+  // Si tiene oficinas (turismo), mostrar solo las cards de oficinas
+  if (dependencia.oficinas && dependencia.oficinas.length > 0) {
+    return (
+      <Container maxWidth="md" sx={{ py: 5 }}>
+        <Button component={RouterLink} to="/dependencias" startIcon={<ArrowBack />} sx={{ mb: 3 }}>
+          Volver a Dependencias
+        </Button>
+
+        <Box>
+          <IconoSquircle
+            color={estilo.color}
+            colorOscuro={estilo.colorOscuro}
+            size={64}
+            sx={{ borderRadius: 3, mb: 2 }}
+          >
+            <Icono sx={{ fontSize: 34 }} />
+          </IconoSquircle>
+          <Typography variant="h4" component="h1" gutterBottom sx={{ mb: 0.5 }}>
+            {dependencia.area}
+          </Typography>
+          <Typography color="text.secondary" sx={{ mb: 4 }}>
+            {dependencia.descripcion ?? 'Oficinas de atención'}
+          </Typography>
+
+          <Grid container spacing={3}>
+            {dependencia.oficinas.map((oficina, idx) => (
+              <Grid item key={idx} xs={12} sm={6}>
+                <Card variant="outlined" sx={{ borderRadius: 2, height: '100%' }}>
+                  <CardContent sx={{ pb: 2 }}>
+                    <Typography variant="subtitle1" component="h3" gutterBottom sx={{ fontWeight: 700 }}>
+                      {oficina.nombre}
+                    </Typography>
+                    {oficina.descripcion && (
+                      <Typography variant="body2" color="text.secondary" sx={{ mb: 1.5 }}>
+                        {oficina.descripcion}
+                      </Typography>
+                    )}
+                    <Stack spacing={1}>
+                      <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1 }}>
+                        <LocationOnIcon fontSize="small" color="primary" sx={{ mt: 0.25 }} />
+                        <Typography variant="body2">{oficina.direccion}</Typography>
+                      </Box>
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <PhoneIcon fontSize="small" color="primary" />
+                        <Typography variant="body2">{oficina.telefono}</Typography>
+                      </Box>
+                      {oficina.whatsapp && (
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <WhatsAppIcon fontSize="small" color="success" />
+                          <Typography variant="body2">WhatsApp: {oficina.whatsapp}</Typography>
+                        </Box>
+                      )}
+                      {oficina.email && (
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <EmailIcon fontSize="small" color="primary" />
+                          <Typography variant="body2">{oficina.email}</Typography>
+                        </Box>
+                      )}
+                      {oficina.horarioAlta && (
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <ScheduleIcon fontSize="small" color="primary" />
+                          <Typography variant="body2">
+                            <strong>Temporada alta:</strong> {oficina.horarioAlta}
+                          </Typography>
+                        </Box>
+                      )}
+                      {oficina.horarioBaja && (
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <ScheduleIcon fontSize="small" color="primary" />
+                          <Typography variant="body2">
+                            <strong>Temporada baja:</strong> {oficina.horarioBaja}
+                          </Typography>
+                        </Box>
+                      )}
+                    </Stack>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+        </Box>
+      </Container>
+    )
+  }
+
+  // Layout original para otras dependencias
   return (
     <Container maxWidth="md" sx={{ py: 5 }}>
       <Button component={RouterLink} to="/dependencias" startIcon={<ArrowBack />} sx={{ mb: 3 }}>
